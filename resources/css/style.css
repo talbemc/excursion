@@ -1,13 +1,61 @@
+body {
+  background-color: black;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
 h1 {
-  font-family: "Verdana";
+  font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
+  color: White;
+  text-align: center;
+
+}
+h2 {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
   text-align: center;
   color: white;
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 21px;
+  font-weight: normal;
+  color: gray;
+  text-align: center;
+
+}
+
+.img {
+  width: 896px;
+  height: 527px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.png {
+  width: 64px;
+  height: 100px;
+  margin: auto;
+}
+
+h3 .copyright {
+  text-align: right;
 }
 
 .link {
   color: AquaMarine;
   font-size: 16px;
   text-align: center;
+}
+
+.video {
+  margin: auto;
+  padding-bottom: 15px;
+  align-self: center;
 }
